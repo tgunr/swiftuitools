@@ -141,16 +141,16 @@ struct ContentView: View {
                 TabView {
                     InstallView()
                         .tabItem {
-                            Text("Installation")
-                        }
+                        Text("Installation")
+                    }
                     UsageView()
                         .tabItem {
-                            Text("Usage")
-                        }
+                        Text("Usage")
+                    }
                     UninstallView()
                         .tabItem {
-                            Text("Uninstall")
-                        }
+                        Text("Uninstall")
+                    }
                 }
             }
         }
