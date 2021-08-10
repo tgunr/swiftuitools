@@ -120,6 +120,7 @@
 			children = (
 				757AB17726C1611B00641D57 /* README.md */,
 				755527D626C02B9300A27C2C /* Comments.playground */,
+				75F1E21326C089E300BCDB46 /* Extension */,
 				75F1E20B26C0896200BCDB46 /* Parser */,
 				755527AD26C027CB00A27C2C /* SwiftUI Text Tools */,
 				755527C626C0282200A27C2C /* SwiftUI Xcode Extension */,
@@ -182,7 +183,6 @@
 		75F1E20B26C0896200BCDB46 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				75F1E21326C089E300BCDB46 /* Extension */,
 				75F1E20926C0894900BCDB46 /* FormatError.swift */,
 				75F1E20726C0894500BCDB46 /* Parser.swift */,
 				75F1E20526C0893F00BCDB46 /* Pref.swift */,
@@ -201,7 +201,8 @@
 				75F1E20D26C0898A00BCDB46 /* Extension.swift */,
 				758C10D826C1C05600B29399 /* ExtensionCGKeyCode.swift */,
 			);
-			path = Extension;
+			name = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
