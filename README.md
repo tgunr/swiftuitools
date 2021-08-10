@@ -10,8 +10,6 @@ More tools will be added in later versions.
 
 ### ToggleBrace
 ![](./README/ToggleBrace.gif)
-<img src='./README/ToggleBrace.gif', width=500, height=500">
-
 
 ### ToggleBraceLines
 ![](./README/ToggleBraceLines.gif)
@@ -24,14 +22,7 @@ More tools will be added in later versions.
 
 ## Installation
 
-There are three way to install.
-
-[comment]: <> 1. Install via [homebrew-cask](https://caskroom.github.io/)
-
-[comment]: <>   ```bash
-[comment]: <>   # Homebrew previous version
-[comment]: <>   brew cask install swimat
-[comment]: <>   ```
+There are a couple of ways to install.
 
 1. Download the App directly.<br>
   <https://github.com/tgunr/swiftuitools>
