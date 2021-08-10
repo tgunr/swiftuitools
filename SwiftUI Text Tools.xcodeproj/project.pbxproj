@@ -192,7 +192,8 @@
 				75F1E20126C0891F00BCDB46 /* SwiftParser.swift */,
 				75F1E1FF26C0890C00BCDB46 /* Indent.swift */,
 			);
-			path = Parser;
+			name = Parser;
+			path = Swimat/Parser;
 			sourceTree = "<group>";
 		};
 		75F1E21326C089E300BCDB46 /* Extension */ = {
@@ -204,7 +205,7 @@
 				758C10D826C1C05600B29399 /* ExtensionCGKeyCode.swift */,
 			);
 			name = Extension;
-			path = Extensions;
+			path = Swimat/Parser/Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
