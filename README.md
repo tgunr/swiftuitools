@@ -1,55 +1,77 @@
 # swiftuitools
 Xcode extension for SwiftUI
 
-[![Build Status](https://travis-ci.org/Jintin/Swimat.svg?branch=master)](https://travis-ci.org/Jintin/Swimat)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3a2fb6a6ba34b11836d58cee0668fb9)](https://www.codacy.com/app/Jintin/Swimat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jintin/Swimat&amp;utm_campaign=Badge_Grade)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift)
-
-[![github](https://img.shields.io/github/release/Jintin/Swimat.svg)](https://github.com/Jintin/Swimat/releases/latest)
-[![homebrew-cask](https://img.shields.io/homebrew/v/swimat.svg)](https://caskroom.github.io/)
-
 SwiftUI Text Tools is an Xcode plug-in to manipulate your Swift code.
-Currently in version 1.0 the  extension contains tools to maniplutate the commenting or removal of lines with open braces '{'. 
+Currently in version 1.0 the  extension contains tools to maniplutate the commenting or removal of lines with open braces '{'. This is useful when using SwiftUI previews to adjust view while in Preview.
+
+More tools will be added in later versions.
 
 ## Preview
 
-![](./README/preview.gif)
+### ToggleBrace
+![](./README/ToggleBrace.gif)
+<img src='./README/ToggleBrace.gif', width=500, height=500">
+
+
+### ToggleBraceLines
+![](./README/ToggleBraceLines.gif)
+
+### RemoveBrace
+![](./README/RemoveBrace.gif)
+
+### RemoveBraceLines
+![](./README/RemoveBraceLines.gif)
 
 ## Installation
 
 There are three way to install.
 
-1. Install via [homebrew-cask](https://caskroom.github.io/)
+[comment]: <> 1. Install via [homebrew-cask](https://caskroom.github.io/)
 
-  ```bash
-  # Homebrew previous version
-  brew cask install swimat
-  ```
-  ```bash
-  # Homebrew latest version
-  brew install --cask swimat
-  ```
+[comment]: <>   ```bash
+[comment]: <>   # Homebrew previous version
+[comment]: <>   brew cask install swimat
+[comment]: <>   ```
 
-2. Download the App directly.<br>
-  <https://github.com/Jintin/Swimat/releases/download/1.7.0/Swimat.zip>
+1. Download the App directly.<br>
+  <https://github.com/tgunr/swiftuitools>
 
 3. Clone and archive to Mac App by yourself.
 
 ## Usage
 
-**After installation, you should open the `Swimat.app` once to make the functionality works.**
+**After installation, you should open the `SwiftUI Tools Extension.app` once to make the functionality works.**
+In Xcode, select text containing an opening brace as shown in the previews.
 
-In the Xcode menu click **[Editor] -> [Swimat] -> [Format]** then the current active file will reformat.
+In the Xcode menu click **[Editor] -> [SwiftUI Tools] -> [Tool]** 
 
-You can also create a hot-key in **[Xcode] -> [Preferences..] -> [Key Bindings]**, if you don't have any prefernce you can set as <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>L</kbd>.
+Select one of:
+
+**[Toggle Brace]** 
+**[Toggle Brace Lines]** 
+**[Remove Brace]** 
+**[Remove Brace Lines]** 
+
+You can also create a hot-key in **[Xcode] -> [Preferences..] -> [Key Bindings]**
+Suggested bindings are:
+
+**[Toggle Brace]** <kbd>F1</kbd>
+**[Toggle Brace Lines]** <kbd>F2</kbd> 
+**[Remove Brace]** <kbd>Option</kbd> + <kbd>F1</kbd>
+**[Remove Brace Lines]** <kbd>Option</kbd> + <kbd>F2</kbd>
+
+![](./README/Key Bindings.png)
 
 ## TroubleShooting
 
-Check [System Preferences] -> [Extensions] -> [Xcode Source Editor] -> [Swimat] is checked. ![](./README/setting.png)
+Check [System Preferences] -> [Extensions] -> [Xcode Source Editor] -> [SwiftUI Text Tools] is checked. ![](./README/System Preferences.png)
+
+## Contribution
+This extensions use code from <https://github.com/Jintin/Swimat> for parsing.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/Jintin/Swimat>.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/tgunr/swiftuitools>.
 
 ## License
 
