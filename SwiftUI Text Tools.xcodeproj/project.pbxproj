@@ -80,6 +80,7 @@
 		755527CB26C0282200A27C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		755527D526C02A3F00A27C2C /* SwiftUI Xcode Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Xcode Extension.entitlements"; sourceTree = "<group>"; };
 		755527D626C02B9300A27C2C /* Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Comments.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		755CC89C26C2BF4900712A7E /* Installation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Installation.html; sourceTree = "<group>"; };
 		757AB17726C1611B00641D57 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		758C10D826C1C05600B29399 /* ExtensionCGKeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCGKeyCode.swift; sourceTree = "<group>"; };
 		758C10D926C1D72700B29399 /* FormatLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatLines.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		755527A226C027CB00A27C2C = {
 			isa = PBXGroup;
 			children = (
+				755CC89C26C2BF4900712A7E /* Installation.html */,
 				757AB17726C1611B00641D57 /* README.md */,
 				755527D626C02B9300A27C2C /* Comments.playground */,
 				75F1E21326C089E300BCDB46 /* Extension */,
