@@ -25,7 +25,7 @@ More tools will be added in later versions.
 There are a couple of ways to install.
 
 1. Download the App directly.<br>
-  <https://github.com/tgunr/swiftuitools>
+  <https://github.com/tgunr/swiftuitools/releases/download/v1.0/SwiftUI.Text.Tools.zip>
 
 3. Clone and archive to Mac App by yourself.
 
