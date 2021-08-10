@@ -39,16 +39,22 @@ In the Xcode menu click **[Editor] -> [SwiftUI Tools] -> [Tool]**
 Select one of:
 
 **[Toggle Brace]** 
+
 **[Toggle Brace Lines]** 
+
 **[Remove Brace]** 
+
 **[Remove Brace Lines]** 
 
 You can also create a hot-key in **[Xcode] -> [Preferences..] -> [Key Bindings]**
 Suggested bindings are:
 
 **[Toggle Brace]** <kbd>F1</kbd>
+
 **[Toggle Brace Lines]** <kbd>F2</kbd> 
+
 **[Remove Brace]** <kbd>Option</kbd> + <kbd>F1</kbd>
+
 **[Remove Brace Lines]** <kbd>Option</kbd> + <kbd>F2</kbd>
 
 ![](./README/Key Bindings.png)
