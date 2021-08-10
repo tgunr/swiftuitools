@@ -1,4 +1,6 @@
 import Foundation
+import CoreGraphics
+extension String: Error {}
 
 extension String {
 

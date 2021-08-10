@@ -30,8 +30,7 @@ class XcodeLines: NSObject, XCSourceEditorCommand {
 
     func performSetup(invocation: XCSourceEditorCommandInvocation) throws {
         self.invocation = invocation
-        self.log = Logger()
-        log.log("performSetup")
+//        log.log("performSetup")
         // Implement your command here, invoking the completion handler when done. Pass it nil on success, and an NSError on failure.
         
         let uti = invocation.buffer.contentUTI
@@ -59,7 +58,7 @@ class XcodeLines: NSObject, XCSourceEditorCommand {
             if line.contains("{") { b += 1 }
             if line.contains("}") { b -= 1 }
             if b == 0 {
-                print("line: \(line)\nb: \(b) c: \(c + 5)")
+                print("found line: \(line)\nb: \(b) c: \(c + 5)")
                 return c
             }
             c += 1
