@@ -1,0 +1,3 @@
+[submodule "Swimat"]
+	path = Swimat
+	url = ../Swimat.git
