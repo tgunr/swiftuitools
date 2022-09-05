@@ -16,7 +16,7 @@
 		755527C526C0282200A27C2C /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755527C426C0282200A27C2C /* XcodeKit.framework */; };
 		755527C826C0282200A27C2C /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527C726C0282200A27C2C /* SourceEditorExtension.swift */; };
 		755527CA26C0282200A27C2C /* ToggleBraceLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527C926C0282200A27C2C /* ToggleBraceLine.swift */; };
-		755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		758C10DA26C1D72700B29399 /* FormatLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C10D926C1D72700B29399 /* FormatLines.swift */; };
 		759C315226C14DFA00323196 /* XcodeLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C315126C14DFA00323196 /* XcodeLines.swift */; };
 		75F1E1E526C07ACE00BCDB46 /* XcodeKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 755527C426C0282200A27C2C /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -42,15 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		755527D226C0282300A27C2C /* Embed App Extensions */ = {
+		755527D226C0282300A27C2C /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed App Extensions */,
+				755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75F1E1E426C07AAD00BCDB46 /* CopyFiles */ = {
@@ -218,7 +218,7 @@
 				755527A726C027CB00A27C2C /* Sources */,
 				755527A826C027CB00A27C2C /* Frameworks */,
 				755527A926C027CB00A27C2C /* Resources */,
-				755527D226C0282300A27C2C /* Embed App Extensions */,
+				755527D226C0282300A27C2C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -256,7 +256,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					755527AA26C027CB00A27C2C = {
 						CreatedOnToolsVersion = 13.0;
@@ -380,6 +380,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -441,6 +442,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -467,9 +469,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Text Tools/Preview Content\"";
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
@@ -497,9 +502,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Text Tools/Preview Content\"";
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
@@ -525,9 +533,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI Xcode Extension/SwiftUI Xcode Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = NO;
@@ -556,9 +567,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI Xcode Extension/SwiftUI Xcode Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = NO;

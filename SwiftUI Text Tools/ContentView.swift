@@ -39,6 +39,7 @@ struct InstallView: View {
                 Text("5) Open Xcode")
                 Text("6) Select 'Editor->SwiftUI Tools'")
                 Text("7) Close this app")
+                Text("8) Create key binding for commands (optional)")
             }
             .padding(.leading)
         }
@@ -139,13 +140,13 @@ struct ContentView: View {
             VersionView()
             VStack {
                 TabView {
-                    InstallView()
-                        .tabItem {
-                        Text("Installation")
-                    }
                     UsageView()
                         .tabItem {
                         Text("Usage")
+                    }
+                    InstallView()
+                        .tabItem {
+                        Text("Installation")
                     }
                     UninstallView()
                         .tabItem {
