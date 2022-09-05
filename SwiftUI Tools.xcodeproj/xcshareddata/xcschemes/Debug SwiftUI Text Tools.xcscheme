@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1400"
-   wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "755527BF26C0282200A27C2C"
-               BuildableName = "SwiftUI Xcode Extension.appex"
-               BlueprintName = "SwiftUI Xcode Extension"
-               ReferencedContainer = "container:SwiftUI Text Tools.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "755527AA26C027CB00A27C2C"
-               BuildableName = "SwiftUI Text Tools.app"
-               BlueprintName = "SwiftUI Text Tools"
-               ReferencedContainer = "container:SwiftUI Text Tools.xcodeproj">
+               BuildableName = "SwiftUI Tools Installer.app"
+               BlueprintName = "SwiftUI Tools Installer"
+               ReferencedContainer = "container:SwiftUI Tools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,51 +31,40 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         FilePath = "/Applications/Xcode.app">
-      </PathRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "755527AA26C027CB00A27C2C"
-            BuildableName = "SwiftUI Text Tools.app"
-            BlueprintName = "SwiftUI Text Tools"
-            ReferencedContainer = "container:SwiftUI Text Tools.xcodeproj">
+            BuildableName = "SwiftUI Tools Installer.app"
+            BlueprintName = "SwiftUI Tools Installer"
+            ReferencedContainer = "container:SwiftUI Tools.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "/Volumes/Home/davec/Sources/Products/MyMeds/myMeds.xcodeproj"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      askForAppToLaunch = "Yes"
-      launchAutomaticallySubstyle = "2">
+      debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "755527AA26C027CB00A27C2C"
-            BuildableName = "SwiftUI Text Tools.app"
-            BlueprintName = "SwiftUI Text Tools"
-            ReferencedContainer = "container:SwiftUI Text Tools.xcodeproj">
+            BuildableName = "SwiftUI Tools Installer.app"
+            BlueprintName = "SwiftUI Tools Installer"
+            ReferencedContainer = "container:SwiftUI Tools.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

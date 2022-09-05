@@ -1,7 +1,7 @@
 # swiftuitools
 Xcode extension for SwiftUI
 
-SwiftUI Text Tools is an Xcode plug-in to manipulate your Swift code.
+SwiftUI Tools is an Xcode plug-in to manipulate your Swift code.
 Currently in version 1.0 the  extension contains tools to maniplutate the commenting or removal of lines with open braces '{'. This is useful when using SwiftUI previews to adjust view while in Preview.
 
 More tools will be added in later versions.
@@ -25,7 +25,7 @@ More tools will be added in later versions.
 There are a couple of ways to install.
 
 1. Download the App directly.<br>
-  <https://github.com/tgunr/swiftuitools/releases/download/v1.0/SwiftUI.Text.Tools.zip>
+  <https://github.com/tgunr/swiftuitools/releases/download/v1.0/SwiftUI.Tools.zip>
 
 3. Clone and archive to Mac App by yourself.
 
@@ -61,7 +61,7 @@ Suggested bindings are:
 
 ## TroubleShooting
 
-Check [System Preferences] -> [Extensions] -> [Xcode Source Editor] -> [SwiftUI Text Tools] is checked. ![](./README/System Preferences.png)
+Check [System Preferences] -> [Extensions] -> [Xcode Source Editor] -> [SwiftUI Tools] is checked. ![](./README/System Preferences.png)
 
 ## Contribution
 This extensions use code from <https://github.com/Jintin/Swimat> for parsing.

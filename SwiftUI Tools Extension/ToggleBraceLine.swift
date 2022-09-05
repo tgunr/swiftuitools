@@ -1,6 +1,6 @@
 //
 //  SourceEditorCommand.swift
-//  SwiftUI Xcode Extension
+//  SwiftUI Tools
 //
 //  Created by Dave Carlton on 8/8/21.
 //

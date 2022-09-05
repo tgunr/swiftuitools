@@ -1,6 +1,6 @@
 //
 //  FormatLines.swift
-//  SwiftUI Xcode Extension
+//  SwiftUI Tools
 //
 //  Created by Dave Carlton on 8/9/21.
 //

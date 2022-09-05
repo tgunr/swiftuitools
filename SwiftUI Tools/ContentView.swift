@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUI Text Tools
+//  SwiftUI Tools
 //
 //  Created by Dave Carlton on 8/8/21.
 //
@@ -35,7 +35,7 @@ struct InstallView: View {
                 Text("1) Copy/Move this app to /Applications")
                 Text("2) Open app in /Applications")
                 Text("3) Open 'System Preferences->Extensions->Xcode Source Editor'")
-                Text("4) Enable 'SwiftUI Text Tools'")
+                Text("4) Enable 'SwiftUI Tools'")
                 Text("5) Open Xcode")
                 Text("6) Select 'Editor->SwiftUI Tools'")
                 Text("7) Close this app")
@@ -57,7 +57,7 @@ struct UninstallView: View {
                     .padding(.bottom, 1.0)
                 Text("1) Remove this app from /Applications")
                 Text("2) Open 'System Preferences->Extensions->Xcode Source Editor'")
-                Text("3) 'SwiftUI Text Tools' should be gone")
+                Text("3) 'SwiftUI Tools' should be gone")
             }
             .padding(.leading)
         }
@@ -96,9 +96,9 @@ struct RemoveUsage: View {
                 .font(.headline)
                 .padding(.top, -1.0)
         }
-            .tabItem {
-                Text("Remove")
-            }
+        .tabItem {
+            Text("Remove")
+        }
     }
 }
 
@@ -106,9 +106,9 @@ struct UsageView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
-            Text("SwiftUI Tools")
-                .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                .padding(.bottom)
+                Text("SwiftUI Tools")
+                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                    .padding(.bottom)
                 Text("There are two modes for these tools.")
                     .padding(.bottom, -2.0)
                 Text("Brace")

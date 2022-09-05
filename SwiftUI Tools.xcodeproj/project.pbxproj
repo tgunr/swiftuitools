@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7522588B26C146E7007509EC /* ToggleBraceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522588A26C146E7007509EC /* ToggleBraceLines.swift */; };
-		755527AF26C027CB00A27C2C /* SwiftUI_Text_ToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527AE26C027CB00A27C2C /* SwiftUI_Text_ToolsApp.swift */; };
+		755527AF26C027CB00A27C2C /* SwiftUI_ToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527AE26C027CB00A27C2C /* SwiftUI_ToolsApp.swift */; };
 		755527B126C027CB00A27C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527B026C027CB00A27C2C /* ContentView.swift */; };
 		755527B326C027CC00A27C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755527B226C027CC00A27C2C /* Assets.xcassets */; };
 		755527B626C027CC00A27C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755527B526C027CC00A27C2C /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 		755527C526C0282200A27C2C /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755527C426C0282200A27C2C /* XcodeKit.framework */; };
 		755527C826C0282200A27C2C /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527C726C0282200A27C2C /* SourceEditorExtension.swift */; };
 		755527CA26C0282200A27C2C /* ToggleBraceLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755527C926C0282200A27C2C /* ToggleBraceLine.swift */; };
-		755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		755527CE26C0282200A27C2C /* SwiftUI Tools.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 755527C026C0282200A27C2C /* SwiftUI Tools.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		758C10DA26C1D72700B29399 /* FormatLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C10D926C1D72700B29399 /* FormatLines.swift */; };
 		759C315226C14DFA00323196 /* XcodeLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C315126C14DFA00323196 /* XcodeLines.swift */; };
 		75F1E1E526C07ACE00BCDB46 /* XcodeKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 755527C426C0282200A27C2C /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -48,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				755527CE26C0282200A27C2C /* SwiftUI Xcode Extension.appex in Embed Foundation Extensions */,
+				755527CE26C0282200A27C2C /* SwiftUI Tools.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,18 +67,18 @@
 
 /* Begin PBXFileReference section */
 		7522588A26C146E7007509EC /* ToggleBraceLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBraceLines.swift; sourceTree = "<group>"; };
-		755527AB26C027CB00A27C2C /* SwiftUI Text Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Text Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		755527AE26C027CB00A27C2C /* SwiftUI_Text_ToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Text_ToolsApp.swift; sourceTree = "<group>"; };
+		755527AB26C027CB00A27C2C /* SwiftUI Tools Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Tools Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755527AE26C027CB00A27C2C /* SwiftUI_ToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ToolsApp.swift; sourceTree = "<group>"; };
 		755527B026C027CB00A27C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		755527B226C027CC00A27C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755527B526C027CC00A27C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Xcode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755527C026C0282200A27C2C /* SwiftUI Tools.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Tools.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		755527C226C0282200A27C2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		755527C426C0282200A27C2C /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		755527C726C0282200A27C2C /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
 		755527C926C0282200A27C2C /* ToggleBraceLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBraceLine.swift; sourceTree = "<group>"; };
 		755527CB26C0282200A27C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		755527D526C02A3F00A27C2C /* SwiftUI Xcode Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Xcode Extension.entitlements"; sourceTree = "<group>"; };
+		755527D526C02A3F00A27C2C /* SwiftUI Tools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Tools.entitlements"; sourceTree = "<group>"; };
 		755527D626C02B9300A27C2C /* Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Comments.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		757AB17726C1611B00641D57 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		758C10D826C1C05600B29399 /* ExtensionCGKeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCGKeyCode.swift; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 				755527D626C02B9300A27C2C /* Comments.playground */,
 				75F1E21326C089E300BCDB46 /* Extension */,
 				75F1E20B26C0896200BCDB46 /* Parser */,
-				755527AD26C027CB00A27C2C /* SwiftUI Text Tools */,
-				755527C626C0282200A27C2C /* SwiftUI Xcode Extension */,
+				755527AD26C027CB00A27C2C /* SwiftUI Tools */,
+				755527C626C0282200A27C2C /* SwiftUI Tools Extension */,
 				755527C126C0282200A27C2C /* Frameworks */,
 				755527AC26C027CB00A27C2C /* Products */,
 			);
@@ -132,21 +132,21 @@
 		755527AC26C027CB00A27C2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				755527AB26C027CB00A27C2C /* SwiftUI Text Tools.app */,
-				755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */,
+				755527AB26C027CB00A27C2C /* SwiftUI Tools Installer.app */,
+				755527C026C0282200A27C2C /* SwiftUI Tools.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		755527AD26C027CB00A27C2C /* SwiftUI Text Tools */ = {
+		755527AD26C027CB00A27C2C /* SwiftUI Tools */ = {
 			isa = PBXGroup;
 			children = (
-				755527AE26C027CB00A27C2C /* SwiftUI_Text_ToolsApp.swift */,
+				755527AE26C027CB00A27C2C /* SwiftUI_ToolsApp.swift */,
 				755527B026C027CB00A27C2C /* ContentView.swift */,
 				755527B226C027CC00A27C2C /* Assets.xcassets */,
 				755527B426C027CC00A27C2C /* Preview Content */,
 			);
-			path = "SwiftUI Text Tools";
+			path = "SwiftUI Tools";
 			sourceTree = "<group>";
 		};
 		755527B426C027CC00A27C2C /* Preview Content */ = {
@@ -166,10 +166,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		755527C626C0282200A27C2C /* SwiftUI Xcode Extension */ = {
+		755527C626C0282200A27C2C /* SwiftUI Tools Extension */ = {
 			isa = PBXGroup;
 			children = (
-				755527D526C02A3F00A27C2C /* SwiftUI Xcode Extension.entitlements */,
+				755527D526C02A3F00A27C2C /* SwiftUI Tools.entitlements */,
 				755527C726C0282200A27C2C /* SourceEditorExtension.swift */,
 				755527C926C0282200A27C2C /* ToggleBraceLine.swift */,
 				759C315126C14DFA00323196 /* XcodeLines.swift */,
@@ -177,7 +177,7 @@
 				758C10D926C1D72700B29399 /* FormatLines.swift */,
 				755527CB26C0282200A27C2C /* Info.plist */,
 			);
-			path = "SwiftUI Xcode Extension";
+			path = "SwiftUI Tools Extension";
 			sourceTree = "<group>";
 		};
 		75F1E20B26C0896200BCDB46 /* Parser */ = {
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		755527AA26C027CB00A27C2C /* SwiftUI Text Tools */ = {
+		755527AA26C027CB00A27C2C /* SwiftUI Tools Installer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 755527B926C027CC00A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Text Tools" */;
+			buildConfigurationList = 755527B926C027CC00A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Tools Installer" */;
 			buildPhases = (
 				755527A726C027CB00A27C2C /* Sources */,
 				755527A826C027CB00A27C2C /* Frameworks */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				755527CD26C0282200A27C2C /* PBXTargetDependency */,
 			);
-			name = "SwiftUI Text Tools";
+			name = "SwiftUI Tools Installer";
 			productName = "SwiftUI Text Tools";
-			productReference = 755527AB26C027CB00A27C2C /* SwiftUI Text Tools.app */;
+			productReference = 755527AB26C027CB00A27C2C /* SwiftUI Tools Installer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		755527BF26C0282200A27C2C /* SwiftUI Xcode Extension */ = {
+		755527BF26C0282200A27C2C /* SwiftUI Tools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 755527CF26C0282300A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Xcode Extension" */;
+			buildConfigurationList = 755527CF26C0282300A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Tools" */;
 			buildPhases = (
 				755527BC26C0282200A27C2C /* Sources */,
 				755527BD26C0282200A27C2C /* Frameworks */,
@@ -241,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI Xcode Extension";
+			name = "SwiftUI Tools";
 			productName = "SwiftUI Xcode Extension";
-			productReference = 755527C026C0282200A27C2C /* SwiftUI Xcode Extension.appex */;
+			productReference = 755527C026C0282200A27C2C /* SwiftUI Tools.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 755527A626C027CB00A27C2C /* Build configuration list for PBXProject "SwiftUI Text Tools" */;
+			buildConfigurationList = 755527A626C027CB00A27C2C /* Build configuration list for PBXProject "SwiftUI Tools" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				755527AA26C027CB00A27C2C /* SwiftUI Text Tools */,
-				755527BF26C0282200A27C2C /* SwiftUI Xcode Extension */,
+				755527AA26C027CB00A27C2C /* SwiftUI Tools Installer */,
+				755527BF26C0282200A27C2C /* SwiftUI Tools */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				755527B126C027CB00A27C2C /* ContentView.swift in Sources */,
-				755527AF26C027CB00A27C2C /* SwiftUI_Text_ToolsApp.swift in Sources */,
+				755527AF26C027CB00A27C2C /* SwiftUI_ToolsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +338,7 @@
 /* Begin PBXTargetDependency section */
 		755527CD26C0282200A27C2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 755527BF26C0282200A27C2C /* SwiftUI Xcode Extension */;
+			target = 755527BF26C0282200A27C2C /* SwiftUI Tools */;
 			targetProxy = 755527CC26C0282200A27C2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,21 +473,22 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Text Tools/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Tools/Preview Content\"";
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©2022 Dave Carlton";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Text-Tools";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -506,21 +507,22 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Text Tools/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Tools/Preview Content\"";
 				DEVELOPMENT_TEAM = BG856GB4D8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©2022 Dave Carlton";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Text-Tools";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -530,7 +532,7 @@
 		755527D026C0282300A27C2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Xcode Extension/SwiftUI Xcode Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Tools Extension/SwiftUI Tools.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -541,19 +543,19 @@
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI Xcode Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Text Tools";
-				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI Xcode Extension";
+				INFOPLIST_FILE = "SwiftUI Tools Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Tools";
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI Tools Extension";
 				INFOPLIST_KEY_CFBundleName = "SwiftUI Tools";
 				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©2022 Dave Carlton";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Text-Tools";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -564,7 +566,7 @@
 		755527D126C0282300A27C2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI Xcode Extension/SwiftUI Xcode Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Tools Extension/SwiftUI Tools.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -575,19 +577,19 @@
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI Xcode Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Text Tools";
-				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI Xcode Extension";
+				INFOPLIST_FILE = "SwiftUI Tools Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Tools";
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI Tools Extension";
 				INFOPLIST_KEY_CFBundleName = "SwiftUI Tools";
 				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©2022 Dave Carlton";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Text-Tools";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.polymicro.SwiftUI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -598,7 +600,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		755527A626C027CB00A27C2C /* Build configuration list for PBXProject "SwiftUI Text Tools" */ = {
+		755527A626C027CB00A27C2C /* Build configuration list for PBXProject "SwiftUI Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				755527B726C027CC00A27C2C /* Debug */,
@@ -607,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		755527B926C027CC00A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Text Tools" */ = {
+		755527B926C027CC00A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Tools Installer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				755527BA26C027CC00A27C2C /* Debug */,
@@ -616,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		755527CF26C0282300A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Xcode Extension" */ = {
+		755527CF26C0282300A27C2C /* Build configuration list for PBXNativeTarget "SwiftUI Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				755527D026C0282300A27C2C /* Debug */,
